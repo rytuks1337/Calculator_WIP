@@ -19,7 +19,7 @@
 
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="192dp"
             android:layout_weight="2"
             android:layout_marginVertical="40dp">
@@ -83,10 +83,13 @@
             android:layout_weight="1">
 
             <Button
+
                 android:id="@+id/clearEverything"
                 android:onClick="buttonClicked"
                 android:layout_height="match_parent"
-                android:layout_column="2"
+                android:layout_width="wrap_content"
+
+
                 android:text="C"
                 android:textSize="22sp" />
 
@@ -94,7 +97,7 @@
                 android:id="@+id/del"
                 android:onClick="buttonClicked"
                 android:layout_height="match_parent"
-                android:layout_column="4"
+
                 android:text="DEL"
                 android:textSize="22sp" />
 
@@ -178,7 +181,7 @@
                 android:onClick="buttonClicked"
                 android:layout_height="match_parent"
                 android:text="*"
-                android:layout_column="4"
+
                 android:textSize="22sp" />
         </TableRow>
 
@@ -193,8 +196,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="3"
-                android:textSize="22sp"
-                android:layout_column="0"/>
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/n2"
@@ -238,7 +240,7 @@
                 android:onClick="buttonClicked"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_span="2"
+                android:layout_span="3"
                 android:text="0"
                 android:textSize="22sp" />
 
@@ -248,7 +250,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_span="2"
-                android:layout_column="3"
+
                 android:text="="
                 android:textSize="22sp" />
         </TableRow>
